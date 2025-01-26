@@ -1,5 +1,7 @@
 # NoteWave  
 
+/Users/priyadarsimishra/Desktop/podemy/frontend/public/newlogo.svg
+
 ## Inspiration  
 We were inspired by the potential to make learning more accessible and engaging for students and professionals alike. Podcasts simplify complex topics while fitting seamlessly into busy schedules. With this idea, we envisioned NoteWave: a tool that transforms traditional study materials into an audio-first experience, making learning not just informative but also convenient.
 
