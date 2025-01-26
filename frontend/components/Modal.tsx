@@ -19,7 +19,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children }) => {
           exit={{ opacity: 0 }}
         >
           <motion.div
-            className="bg-white rounded-lg p-6 w-full max-w-3xl relative"
+            className="bg-[url(/grad.svg)] rounded-lg p-6 w-full max-w-6xl h-3/4 border-2 border-black border-solid relative"
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             exit={{ scale: 0.8, opacity: 0 }}

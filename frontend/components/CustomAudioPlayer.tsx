@@ -11,7 +11,6 @@ interface AudioPlayerProps {
 
 const CustomAudioPlayer: React.FC<AudioPlayerProps> = ({ audioUrl, onTimeUpdate }) => {
   const [isPlaying, setIsPlaying] = useState(false)
-
   useEffect(() => {
     // This effect is used to sync the isPlaying state with the actual audio player state
     const audioElement = document.querySelector("audio")
@@ -31,7 +30,7 @@ const CustomAudioPlayer: React.FC<AudioPlayerProps> = ({ audioUrl, onTimeUpdate 
 
   return (
     <div className="w-full max-w-2xl mx-auto">
-      <div className="flex justify-center mb-4 space-x-8">
+      <div className="flex justify-center mt-5 mb-4 space-x-8">
         <motion.div
           className="w-24 h-24 bg-blue-500 rounded-full flex items-center justify-center"
           animate={{
@@ -87,13 +86,12 @@ const CustomAudioPlayer: React.FC<AudioPlayerProps> = ({ audioUrl, onTimeUpdate 
       </div>
       <AudioPlayer
         src={audioUrl}
-        onListen={onTimeUpdate}
-        onPlay={() => setIsPlaying(true)}
-        onPause={() => setIsPlaying(false)}
-        showJumpControls={true}
-        showSkipControls={true}
-        customControlsSection={["MAIN_CONTROLS", "VOLUME_CONTROLS"]}
-        customProgressBarSection={["PROGRESS_BAR", "CURRENT_TIME", "DURATION"]}
+        // onListen={onTimeUpdate}
+        // onPlay={() => setIsPlaying(true)}
+        // onPause={() => setIsPlaying(false)}
+        // showJumpControls={true}
+        // customControlsSection={["play", "volume"]}
+        // customProgressBarSection={["progress", "current-time", "duration"]}
         className="rhap_container"
       />
     </div>

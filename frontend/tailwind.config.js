@@ -11,6 +11,11 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        'libre-baskerville': ['"Libre Baskerville"', 'serif'],
+        'shippori': ['"Shippori Mincho"', 'serif'],
+        'garamond': ['"Garamond"', 'serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 
 const LoadingAnimation: React.FC = () => {
   return (
-    <div className="flex justify-center items-center h-64">
+    <div className="flex justify-center items-center mt-25 h-64">
       <motion.div
         className="w-16 h-16 bg-blue-500 rounded-full"
         animate={{

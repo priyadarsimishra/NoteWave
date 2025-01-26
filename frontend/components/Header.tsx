@@ -2,9 +2,15 @@ import type React from "react"
 
 const Header: React.FC = () => {
   return (
-    <header className="text-center py-6">
-      <h1 className="text-3xl font-bold mb-2">Podemy</h1>
-      <p className="text-lg text-gray-600">Transform your troubles into audio insights</p>
+    <header className="flex items-center justify-between px-4 py-6">
+          <div className="logo">
+            <img src="/newlogo.svg" alt="Logo" className="h-36 w-auto" />
+          </div>
+
+          <div className="text-center flex-1 -ml-24">
+            <h1 className="header-title">NoteWave</h1>
+            <p className="header-description">Turn your notes into interactive podcasts that make learning easier and more engaging.</p>
+          </div>
     </header>
   )
 }
